@@ -2,9 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css" />
     <title>Kurukuru App</title>
 </head>
 <body>
-
+    <form class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="君の名はなんですか？" />
+        <input type="submit" value="ログイン" />
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <script type="text/javascript" src="js/app.js" />
 </body>
 </html>
