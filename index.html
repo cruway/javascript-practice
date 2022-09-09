@@ -10,7 +10,26 @@
         <input required maxlength="15" type="text" placeholder="君の名はなんですか？" />
         <input type="submit" value="ログイン" />
     </form>
+    <h2 id="clock">00:00:00</h2>
     <h1 id="greeting" class="hidden"></h1>
-    <script type="text/javascript" src="js/app.js" />
+    <form id="todo-form">
+        <input type="text" placeholder="入力してください。" required />
+    </form>
+    <ul id="todo-list">
+    </ul>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <script type="text/javascript" src="js/greetings.js"></script>
+    <script type="text/javascript" src="js/clock.js"></script>
+    <script type="text/javascript" src="js/quotes.js"></script>
+    <script type="text/javascript" src="js/background.js"></script>
+    <script type="text/javascript" src="js/todo.js"></script>
+    <script type="text/javascript" src="js/weather.js"></script>
 </body>
 </html>
